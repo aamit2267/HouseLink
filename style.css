@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    height: 100px;
+}
+nav .logo img {
+    width: 100px;
+    height: 100px;
+}
+nav .logo p {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+nav .logo span {
+    color: rgb(39, 74, 189);
+}
+#nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 100px;
+}
+#nav-links button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(39, 74, 189);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links li {
+    list-style: none;
+}
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 10px;
+}
+.nav-links a:hover {
+    color: rgb(39, 74, 189);
+}
+.nav-links a.active {
+    color: rgb(39, 74, 189);
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+main .advertisement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+main .preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+main .advertisement h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+main .advertisement p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.subscribe {
+    margin-top: 30px;
+    display: flex;
+}
+.subscribe input {
+    width: 50%;
+    height: 60px;
+    border: 4px solid black;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgb(240, 240, 240);
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.subscribe button {
+    width: 150px;
+    height: 60px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    transform: translateX(-4px);
+}
+#note {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+}
+.sponsored-brands {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#philips {
+    height: 30px;
+    margin: 10px;
+}
+#alexa {
+    height: 80px;
+    margin: 10px;
+}
+.app-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app-preview img {
+    width: 317.94px;
+    height: 618.66px;
+}
+#row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#row img {
+    width: 323px;
+    height: 125px;
+    margin: 10px;
+    cursor: pointer;
+}
